@@ -1,16 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Home from './pages/home.js'
-import about from './pages/about us';
+import Home from './pages/home'
+import About from './pages/about';
+import { Route ,Routes} from 'react-router-dom';
+import Navbar from './components/navbar';
 function App() {
   return (
-    <>
-      <Navbar />
-      <Routes>
-        <Route index path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-    </Routes>
-    </>
+    <div>
+    
+  <Navbar>
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="about" element={<About />} />
+  </Routes>
+  </Navbar>
+    
+    
+    </div>
   )
 }
 
