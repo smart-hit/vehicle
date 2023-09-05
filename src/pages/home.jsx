@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+
 function Home(){
     return(
       <>
-      <div>
+      <div class="home-main">
       <h1>rend a car of your dream</h1>
-      <Link to="/About">link</Link>
+     <h2>hekk</h2>
       </div>
       </>
     );

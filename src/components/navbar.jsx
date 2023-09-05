@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "../images/logo/Rp cars.png";
 import { useState } from "react";
-import "../style/navbarStyles.scss";
+
 function Navbar() {
   const [nav, setNav] = useState(false);
 
