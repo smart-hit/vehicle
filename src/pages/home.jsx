@@ -1,11 +1,10 @@
 
+
+import Home1 from "../components/home1";
 function Home(){
     return(
       <>
-      <div class="home-main">
-      <h1>rend a car of your dream</h1>
-     <h2>hekk</h2>
-      </div>
+    <Home1 />
       </>
     );
 }
