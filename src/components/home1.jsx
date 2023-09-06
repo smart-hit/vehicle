@@ -7,8 +7,8 @@ function Home1(){
                   <div class="home-title">
                     <h1>
                     Unlock <span>Your</span> Next <span class="red">Adventure</span> with</h1>       
-                    <h2>Seamless <span>Car</span> Rentals at Your <span class="red">Fingertips!</span>
-                   </h2>
+                    <h1>Seamless <span>Car</span> Rentals at Your <span class="red">Fingertips!</span>
+                   </h1>
                    
                    </div>
                    

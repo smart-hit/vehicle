@@ -1,6 +1,6 @@
 .home-main{
   position: absolute;
-  bottom:60%;
+  bottom:58.2%;
   background-color: rgb(65, 137, 161);
 }
 .about-main{
@@ -9,20 +9,29 @@
   
 }
 .navbar{
-  background-color: rgb(251, 235, 227);
+  
+  position: absolute;
+  
+  top:0%;
+  height: 133px;
+  width: 100%;
+  background-color: #070707;
+  
 }
 body {
-  background-color: #fb9785;
+  background-color: #f8f8f8;
   font-family: "Poppins", sans-serif;
   
 }
 .navbar__img{
 transform: scale(0.3);
-position: absolute;
+position: fixed;
 bottom:48%;
 right:75%;
 }
 .navbar__links{
+  
+  padding-top: 25px;
   display:flex;
   justify-content: center;
   gap: 2.4em;
@@ -32,7 +41,7 @@ right:75%;
   font-size: 1.4rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
-  color: #0f0f60;
+  color: #f3f3f9;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s;
@@ -41,11 +50,12 @@ right:75%;
 .home-img{
   position: absolute;
   left:56%;
+  bottom: 10%;
   transform: scale(0.8);
 }
 .home-title{
   position:relative;
-  left:50%;
+  left:0%;
 }
 span {
   color:orange;
@@ -55,7 +65,7 @@ span {
 }
 
 .glow-on-hover {
-  left:19%;
+  left:10%;
   bottom: 50%;
   width: 220px;
   height: 50px;
