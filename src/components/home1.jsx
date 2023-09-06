@@ -4,7 +4,17 @@ function Home1(){
                 <>
                 <section>
                 <div class="home-main">
-                <h1>Unlock Your Next Adventure with Seamless Car Rentals at Your Fingertips!</h1>
+                  <div class="home-title">
+                    <h1>
+                    Unlock <span>Your</span> Next <span class="red">Adventure</span> with</h1>       
+                    <h2>Seamless <span>Car</span> Rentals at Your <span class="red">Fingertips!</span>
+                   </h2>
+                   
+                   </div>
+                   
+                </div>
+                <div class="button">
+                <button class="glow-on-hover" type="button">Book now!</button>
                 </div>
                 <div class="home-img">
                    <img src={carpic1} />
