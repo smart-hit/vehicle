@@ -1,8 +1,36 @@
 .home-main{
   position: absolute;
   bottom:58.2%;
-  background-color: rgb(65, 137, 161);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  
 }
+.rigth{
+  position: absolute;
+  left:60%;
+  top:70%;
+  font-size: large;
+  font-family: Georgia, serif;
+  
+}
+.left{
+  position: absolute;
+  top:70%;
+  font-size: large;
+  font-family: Georgia, serif;
+  
+}
+.button{
+  position: absolute;
+  left:3%;
+bottom: 15%;
+}
+.homeFull{
+  position: absolute;
+  top:41.8%;
+  color: #131314;
+
+  }
 .about-main{
   position: absolute;
   bottom:65%;
@@ -13,49 +41,53 @@
   position: absolute;
   
   top:0%;
-  height: 133px;
+  height: 100px;
   width: 100%;
   background-color: #070707;
-  
+ 
 }
 body {
   background-color: #f8f8f8;
   font-family: "Poppins", sans-serif;
+
+   
   
-}
+ }
 .navbar__img{
 transform: scale(0.3);
-position: fixed;
-bottom:48%;
-right:75%;
+position: relative;
+bottom:165%;
+right: 35%;
 }
 .navbar__links{
-  
-  padding-top: 25px;
+  position: absolute;
+  top:10%;
+  right: 42%;
   display:flex;
   justify-content: center;
   gap: 2.4em;
   list-style-type: none;
+  padding-top: 1%;
 }
 .navbar__links a {
   font-size: 1.4rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
-  color: #f3f3f9;
+  color: #eeeef2;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s;
   
 }
 .home-img{
+  z-index: 2;
   position: absolute;
-  left:56%;
-  bottom: 10%;
-  transform: scale(0.8);
+  right: 3%;
+  width: 65%;
+  margin-top: 6.5rem;
 }
 .home-title{
   position:relative;
-  left:0%;
 }
 span {
   color:orange;
@@ -66,7 +98,7 @@ span {
 
 .glow-on-hover {
   left:10%;
-  bottom: 50%;
+  bottom: 48.4%;
   width: 220px;
   height: 50px;
   border: none;
@@ -124,4 +156,50 @@ span {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
+}
+
+.box-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 2rem;
+}
+.book-section {
+  position: absolute;
+   top:23%;
+   left:0%;
+  background: linear-gradient(to bottom, gray 20%, white 80%);
+}
+.book-content {
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+.book-content__box {
+  background-color: white;
+  width: 100%;
+  padding: 4rem 4.5rem 5rem 5.5rem;
+  box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
+  height: auto;
+  position: relative;
+  z-index: 4;
+  color: white;
+  border-radius: 5px;
+  background-image: url("/src/images/bg-carform.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: text-black;
+}
+.bg-shape {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  z-index: 1;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 }

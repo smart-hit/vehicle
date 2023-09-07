@@ -34,6 +34,12 @@ function Navbar() {
                 About
               </Link>
             </li>
+            <li>
+            {" "}
+              <Link className="about-link" to="/book">
+                Book
+              </Link>
+            </li>
           </ul>
 
           {/* mobile */}

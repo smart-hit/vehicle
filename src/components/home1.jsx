@@ -1,8 +1,13 @@
-import carpic1 from "../images/carpic1.png";
+import homeMain from "../images/homeMain.png";
+import homebg3 from "../images/homebg3.png";
+import {useNavigate} from 'react-router-dom';
 function Home1(){
+  const navigate = useNavigate();
+  
               return(
                 <>
-                <section>
+                <div class="full" >
+                <img className="bg-shape" src={homebg3}  />
                 <div class="home-main">
                   <div class="home-title">
                     <h1>
@@ -13,13 +18,16 @@ function Home1(){
                    </div>
                    
                 </div>
-                <div class="button">
-                <button class="glow-on-hover" type="button">Book now!</button>
-                </div>
+            
                 <div class="home-img">
-                   <img src={carpic1} />
+                   <img src={homeMain} />
                 </div>
-                </section>
+                <div class="button">
+                  
+                <button class="glow-on-hover" onClick={ () => navigate("/book")}>Book now</button>
+                
+                </div>
+                </div>
                 </>
               );          
 }
