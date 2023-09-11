@@ -1,4 +1,4 @@
-import homeMain from "../images/homeMain.png";
+import homebgbmw from "../images/home-bgbmw.png";
 import homebg3 from "../images/homebg3.png";
 import {useNavigate} from 'react-router-dom';
 function Home1(){
@@ -20,7 +20,7 @@ function Home1(){
                 </div>
             
                 <div class="home-img">
-                   <img src={homeMain} />
+                   <img src={homebgbmw} />
                 </div>
                 <div class="button">
                   

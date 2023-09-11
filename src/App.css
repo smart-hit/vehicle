@@ -82,9 +82,10 @@ right: 35%;
 .home-img{
   z-index: 2;
   position: absolute;
-  right: 3%;
-  width: 65%;
+  transform: scale(0.4);
+  top:-29%;
   margin-top: 6.5rem;
+
 }
 .home-title{
   position:relative;
@@ -195,7 +196,7 @@ span {
 }
 .bg-shape {
   position: absolute;
-  top: 20%;
+  top: 17.5%;
   right: 0;
   z-index: 1;
 
