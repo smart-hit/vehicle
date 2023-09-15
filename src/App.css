@@ -32,9 +32,17 @@ bottom: 15%;
 
   }
 .about-main{
-  position: absolute;
+  position: relative;
   bottom:65%;
   
+}
+.about-com{
+  position:absolute;
+  text-align:center;
+  top:120px;
+  width:10cm;
+  border: 10px solid #e4fa74;
+  border-radius: 15px 50px;
 }
 .navbar{
   
