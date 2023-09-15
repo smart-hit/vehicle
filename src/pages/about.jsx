@@ -1,5 +1,8 @@
 import phoneicon from "../images/phoneicon.png";
 import emailicon1 from "../images/emailicon1.png";
+import review1 from "../images/review1.jpg";
+import review2 from "../images/review2.jpg";
+import quote from "../images/quote.jpg";
 function About(){
     return(
         <>
@@ -17,17 +20,34 @@ function About(){
         <img className="email1-img" src={emailicon1} /> 
         <h3 className="email">rpcars@gmail.com</h3>
         <h3></h3>
-        <p></p>
+        
         </div>
         <div className="about-work">
              <ul className="footer-content">
-              <li>Working Hours</li>
+              <li className="work">Working Hours</li>
               <li>Mon - Fri: 9:00AM - 9:00PM</li>
               <li>Sat: 9:00AM - 19:00PM</li>
               <li>Sun: Closed</li>
             </ul>
 
         </div>
+        
+            <div className="review1">
+                <h1>Client's Testimonials</h1>
+                <h3>"We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable. "</h3>
+                <h1 className="harry">Harry Potter</h1>
+                <img className="review1-img" src={review1} />
+                <img className="quote1" src={quote} /> 
+            </div>
+            
+            <div className="review2">
+            <h1>Client's Testimonials</h1>
+                <h3>"The car was in great condition and made our trip even better. Highly recommend for this car rental website!"</h3>
+                <h1 className="hermi">Hermione Granger</h1>
+                <img className="review2-img" src={review2} />
+                <img className="quote" src={quote} />
+                </div>
+              
         </div>
         </section>
         </>

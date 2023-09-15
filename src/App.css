@@ -29,12 +29,12 @@ bottom: 15%;
   position: absolute;
   top:41.8%;
   color: #131314;
-
+ 
   }
 .about-main{
   position: relative;
   bottom:65%;
-  
+
 }
 .about-com{
   position:absolute;
@@ -87,15 +87,71 @@ h3.email {
 .footer-content {
   
   list-style: none;
-  font-size:22px;
+  font-size:21px;
  
 }
-li:nth-child(1) {
+li.work {
   font-size: h3-size;
   font-weight: 700;
   text-transform: uppercase;
   font-family: titles-font;
   cursor: auto;
+}
+.review1{
+  position: absolute;
+  top: 6.5cm;
+  left: 1cm;
+  width: 10cm;
+  background-color: white;
+  box-shadow: 0 20px 40px 0 rgb(0 0 0 / 8%);
+}
+.review1-img{
+  position: absolute;
+  top:167px;
+  left:0.1cm;
+  height: 1cm;
+  width: 1cm;
+  border-radius: 50%;
+}
+h1.harry{
+  position: relative;
+  left:1.1cm;
+}
+h1.hermi{
+  position: relative;
+  left:1.2cm;
+}
+.review2-img{
+  position: absolute;
+  top:144px;
+  left:0.1cm;
+  height: 1.1cm;
+  width: 1.1cm;
+  border-radius: 50%;
+}
+.quote{
+  position: absolute;
+  top:3.9cm;
+  left:8cm;
+  height: 1.1cm;
+  width: 1.1cm;
+  border-radius: 50%;
+}
+.quote1{
+  position: absolute;
+  top:4.4cm;
+  left:8cm;
+  height: 1.1cm;
+  width: 1.1cm;
+  border-radius: 50%;
+}
+.review2{
+  position: absolute;
+  top: 6cm;
+  left: 23cm;
+  width: 9.5cm;
+  background-color: white;
+  box-shadow: 0 20px 40px 0 rgb(0 0 0 / 8%);
 }
 
 .navbar{
