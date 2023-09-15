@@ -38,12 +38,66 @@ bottom: 15%;
 }
 .about-com{
   position:absolute;
-  text-align:center;
+  text-align: center;
+  background-image: url("/src/images/goodbg.png");
+  background-position: right center;
   top:120px;
+  left:11.5cm;
   width:10cm;
-  border: 10px solid #e4fa74;
+  border: 10px solid #121211;
   border-radius: 15px 50px;
 }
+.about-work{
+  position: absolute;
+  top:470px;
+  right: 21%;
+}
+.about-con{
+  position: absolute;
+  top:470px;
+  left:8cm;
+}
+.phone-img{
+  position: absolute;
+  top:58px;
+  left:0.1cm;
+  height: 0.9cm;
+  width: 0.9cm;
+}
+.email1-img{
+  position: absolute;
+  top:90px;
+  left:0.1cm;
+  height: 0.9cm;
+  width: 0.9cm;
+}
+
+h3.contact {
+  position: absolute;
+  top: 48px;
+  left: 41px;
+  font-family:oldstyle;
+}
+h3.email {
+  position: absolute;
+  top: 75px;
+  left: 41px;
+  font-family:oldstyle;
+}
+.footer-content {
+  
+  list-style: none;
+  font-size:22px;
+ 
+}
+li:nth-child(1) {
+  font-size: h3-size;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: titles-font;
+  cursor: auto;
+}
+
 .navbar{
   
   position: absolute;
