@@ -6,7 +6,7 @@ function Home1(){
   
               return(
                 <>
-                <div class="full" >
+                <div class="home1" >
                 <img className="bg-shape" src={homebg3}  />
                 <div class="home-main">
                   <div class="home-title">
@@ -22,7 +22,7 @@ function Home1(){
                 <div class="home-img">
                    <img src={homebgbmw} />
                 </div>
-                <div class="button">
+                <div class="homebutton">
                   
                 <button class="glow-on-hover" onClick={ () => navigate("/book")}>Book now</button>
                 

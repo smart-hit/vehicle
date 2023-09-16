@@ -1,13 +1,13 @@
 function Cars(){
     return(
-        <div class="homeFull">
+        <div class="carFull">
         <h1>cars on our park:</h1>
-        <div class='left'>
+        <div class='carleft'>
         <p>VW Passat</p>
         <p>BMW 320</p>
         <p>Mercedes</p>
         </div>
-        <div class="rigth" > 
+        <div class="carrigth" > 
         <p>Audi-A1</p>
         <p>Golf 6</p>
         <p>Toyota</p>

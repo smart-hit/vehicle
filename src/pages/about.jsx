@@ -1,5 +1,6 @@
 import phoneicon from "../images/phoneicon.png";
 import emailicon1 from "../images/emailicon1.png";
+import aboutbg from "../images/aboutbg.png";
 import review1 from "../images/review1.jpg";
 import review2 from "../images/review2.jpg";
 import quote from "../images/quote.jpg";
@@ -7,7 +8,7 @@ function About(){
     return(
         <>
         <section>
-        
+        <img className="about-bgimg" src={aboutbg} />
         <div className="about-main">
         <div className="about-com">
         <h1>About Company</h1>
