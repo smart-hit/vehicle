@@ -1,90 +1,94 @@
-import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+import bgbookbox from "../images/bgbookbox.jpg";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 function BookCar() {
-  const [arr,setArr]=useState("")
-  const navigate=useNavigate();
+  
+
+
+ const form = useRef();
+
+ const sendEmail = (e) => {
+   e.preventDefault(); // prevents the page from reloading when you hit “Send”
+
+   emailjs.sendForm('service_jkdajrc','template_txl7bkd', form.current, 'uA6A1g-CQnP-iOqK0')
+     .then((result) => {
+      console.log(result.text);
+      console.log("check your mail");
+
+         // show the user a success message
+     }, (error) => {
+      console.log(error.text);
+      console.log("invaild");
+         // show the user an error
+     });
+ };
+
+  
     return (
      
       <>
         <section id="booking-section" className="book-section">
-     
-  
-                <form className="box-form">
-                  <div className="box-form__car-type">
-                    <label>
-                    Select Your Car
-                      Type 
-                    </label>
-                    <select >
-                      <option>Select your car type</option>
-                      <option value="Audi A1 S-Line">Audi A1 S-Line</option>
-                      <option value="VW Golf 6">VW Golf 6</option>
-                      <option value="Toyota Camry">Toyota Camry</option>
-                      <option value="BMW 320 ModernLine">
-                        BMW 320 ModernLine
-                      </option>
-                      <option value="Mercedes-Benz GLK">Mercedes-Benz GLK</option>
-                      <option value="VW Passat CC">VW Passat CC</option>
-                    </select>
-                  </div>
-  
-                  <div className="box-form__car-type">
-                    <label>
-                      <i className="fa-solid fa-location-dot"></i> &nbsp; Pick-up{" "}
-                      <b>*</b>
-                    </label>
-                    <select >
-                      <option>Select pick up location</option>
-                      <option>Belgrade</option>
-                      <option>Novi Sad</option>
-                      <option>Nis</option>
-                      <option>Kragujevac</option>
-                      <option>Subotica</option>
-                    </select>
-                  </div>
-  
-                  <div className="box-form__car-type">
-                    <label>
-                      <i className="fa-solid fa-location-dot"></i> &nbsp; Drop-of{" "}
-                      <b>*</b>
-                    </label>
-                    <select >
-                      <option>Select drop off location</option>
-                      <option>Novi Sad</option>
-                      <option>Belgrade</option>
-                      <option>Nis</option>
-                      <option>Kragujevac</option>
-                      <option>Subotica</option>
-                    </select>
-                  </div>
-  
-                  <div className="box-form__car-time">
-                    <label htmlFor="picktime">
-                      <i className="fa-regular fa-calendar-days "></i> &nbsp;
-                      Pick-up <b>*</b>
-                    </label>
-                    <input
-                      id="picktime"
-                      
-                      type="date"
-                    ></input>
-                  </div>
-  
-                  <div className="box-form__car-time">
-                    <label htmlFor="droptime">
-                      <i className="fa-regular fa-calendar-days "></i> &nbsp;
-                      Drop-of <b>*</b>
-                    </label>
-                    <input
-                      id="droptime"
-
-                      type="date"
-                    ></input>
-                  </div>
-                  
-   
-                </form>
-             
+      <img className="bookbg" src={bgbookbox}></img>
+      <h1 class="bookcar">Book a car</h1>
+      
+      <form className="bookcarform" ref={form} onSubmit={sendEmail}>
+        <div class="bookname">
+        <label>Name</label>
+        <input type="text" name="user_name"></input>
+        </div>
+        <div class="bookemail">
+        <label for="email">E-mail</label>
+        <input id="email" type="email" name="user_mail"></input>
+        </div>
+        <div class="bookselectcar">
+        <label>Select Car</label>
+        <select>
+          <option>BMW 320</option>
+          <option>VW Passat</option>
+          <option>swift</option>
+          <option>Audi-A1</option>
+          <option>Mercedes</option>
+        </select>
+        </div >
+        <div class="bookpdate">
+        <label>Select Pickup Date</label>
+        <input type="date"></input>
+        </div>
+        <div class="bookptime">
+        <label>Pickup Time</label>
+        <input type="time"></input>
+        </div>
+        <div class="bookddate">
+        <label>Select Drop Date</label>
+        <input type="date"></input>
+        </div>
+        <div class="bookdtime">
+        <label>Drop Time</label>
+        <input type="time"></input>
+        </div>
+        <div class="bookploc">
+        <label for="pick">Pickup location</label><br />
+        <select id="pick">
+          <option>sholinganallur</option>
+          <option>Avadi</option>
+          <option>T-nagar</option>
+          <option>kk-nagar</option>
+        </select>
+        </div>
+        <div class="bookdloc">
+        <label>Drop Location</label>
+        <select>
+          <option>Sholinganallur</option>
+          <option>Avadi</option>
+          <option>T-nagar</option>
+          <option>kk-nagar</option>
+        </select>
+        </div>
+        <div className="reserve-button">
+        <input type="submit" value="Send" />
+            </div>
+        </form>   
         </section>
   
          

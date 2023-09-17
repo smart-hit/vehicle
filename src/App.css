@@ -293,40 +293,72 @@ h1.hermi{
   box-shadow: 0 20px 40px 0 rgb(0 0 0 / 8%);
 }
 
-
-
-.box-form {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  gap: 2rem;
-}
 .book-section {
   position: absolute;
-   top:23%;
-   left:0%;
-  background: linear-gradient(to bottom, gray 20%, white 80%);
-}
-.book-content {
-  margin: 0 auto;
-  margin-bottom: 10rem;
-}
 
-.book-content__box {
-  background-color: white;
-  width: 100%;
-  padding: 4rem 4.5rem 5rem 5.5rem;
-  box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
-  height: auto;
-  position: relative;
-  z-index: 4;
-  color: white;
-  border-radius: 5px;
-  background-image: url("/src/images/bg-carform.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  color: text-black;
+}
+.bookcarform{
+  position: absolute;
+  top:4cm;
+  left:7cm;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  
+  padding: 30px;
+  font-size: large;
+  font-family: Georgia, serif;
+  
+  color: #eeeef2;
+}
+.bookselectcar{
+  display: grid;
+  padding: 10px;
+}
+.bookptime{
+  display:grid;
+  padding: 10px;
+}
+.bookdtime{
+  display:grid;
+  padding: 10px;
+}
+.bookddate{
+padding: 10px;
+font-family: bold;
+
+}
+.bookname{
+  padding: 10px;
+}
+.bookemail{
+    padding: 10px;
+}
+.bookpdate{
+  padding: 10px;
+}
+.bookploc{
+  padding: 10px;
+}
+.bookdloc{
+  padding: 10px;
+}
+.reserve-button{
+  position: absolute;
+  bottom:5%;
+  right:10%;
+  font-size: large;
+  font-family: Georgia, serif;
+}
+h1.bookcar{
+position: fixed;
+top:20%;
+left:13%;
+}
+.bookbg{
+ position: absolute;
+ top:0%;
+ z-index: -1;
+  filter: brightness(60%);
+  width:34cm;
+  height:16cm;
 }
