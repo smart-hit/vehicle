@@ -1,11 +1,11 @@
 import bgbookbox from "../images/bgbookbox.jpg";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import { useState } from "react";
 function BookCar() {
   
 
-
+  const [status, setStatus] = useState(undefined);
  const form = useRef();
 
  const sendEmail = (e) => {
@@ -15,6 +15,7 @@ function BookCar() {
      .then((result) => {
       console.log(result.text);
       console.log("check your mail");
+      setStatus({ type: 'success' });
 
          // show the user a success message
      }, (error) => {
@@ -24,6 +25,7 @@ function BookCar() {
      });
  };
 
+
   
     return (
      
@@ -31,6 +33,7 @@ function BookCar() {
         <section id="booking-section" className="book-section">
       <img className="bookbg" src={bgbookbox}></img>
       <h1 class="bookcar">Book a car</h1>
+      
       
       <form className="bookcarform" ref={form} onSubmit={sendEmail}>
         <div class="bookname">
@@ -88,7 +91,13 @@ function BookCar() {
         <div className="reserve-button">
         <input type="submit" value="Send" />
             </div>
-        </form>   
+            <div className="success">{status?.type === 'success' && 
+        
+        <h3 className="rp">Check your mail for booking details.<br />~~~RP Cars Crew</h3> 
+         }
+        </div> 
+        </form> 
+         
         </section>
   
          

@@ -362,3 +362,17 @@ left:13%;
   width:34cm;
   height:16cm;
 }
+h3.rp{
+position: absolute;
+top:1%;
+left:1%;
+color: #000000;
+background-image: url("/src/images/successbg.jpg");
+border: 3px solid #121211;
+border-radius: 40px 15px;
+padding: 10px;
+height: 200px;
+width: 700px;
+text-align: center;
+filter: brightness(85%);
+}
