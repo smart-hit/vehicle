@@ -183,7 +183,7 @@ span {
   top:120px;
   left:11.5cm;
   width:10cm;
-  border: 10px solid #121211;
+  border: 3px solid #121211;
   border-radius: 15px 50px;
 }
 .about-work{
@@ -241,6 +241,7 @@ li.work {
   top: 6.5cm;
   left: 1cm;
   width: 10cm;
+  border: 3px solid #121211;
   background-color: white;
   box-shadow: 0 20px 40px 0 rgb(0 0 0 / 8%);
 }
@@ -264,6 +265,7 @@ h1.hermi{
   position: absolute;
   top:144px;
   left:0.1cm;
+  
   height: 1.1cm;
   width: 1.1cm;
   border-radius: 50%;
@@ -289,6 +291,7 @@ h1.hermi{
   top: 6cm;
   left: 23cm;
   width: 9.5cm;
+  border: 3px solid #121211;
   background-color: white;
   box-shadow: 0 20px 40px 0 rgb(0 0 0 / 8%);
 }
