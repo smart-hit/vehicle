@@ -379,3 +379,11 @@ width: 700px;
 text-align: center;
 filter: brightness(85%);
 }
+.buttonbook{
+  width: 190%;
+  color: #ffffff;
+  border-radius: 40px 15px;
+  height: 0.8cm;
+  background-image: url("/src/images/button bg.jpg");
+  background-position: center;
+}
