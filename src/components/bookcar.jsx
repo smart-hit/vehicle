@@ -89,7 +89,7 @@ function BookCar() {
         </select>
         </div>
         <div className="reserve-button">
-        <input type="submit" value="Send" />
+        <input type="submit" value="Book Now" />
             </div>
             <div className="success">{status?.type === 'success' && 
         
