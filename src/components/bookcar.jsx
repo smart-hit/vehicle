@@ -49,9 +49,10 @@ function BookCar() {
         <select>
           <option>BMW 320</option>
           <option>VW Passat</option>
-          <option>swift</option>
+          <option>Tesla</option>
           <option>Audi-A1</option>
           <option>Mercedes</option>
+          <option>Porshe</option>
         </select>
         </div >
         <div class="bookpdate">
