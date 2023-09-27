@@ -1,6 +1,6 @@
 import phoneicon from "../images/phoneicon.png";
 import emailicon1 from "../images/emailicon1.png";
-import aboutbg from "../images/aboutbg.png";
+import aboutbg from "../images/aboutbg.gif";
 import review1 from "../images/review1.jpg";
 import review2 from "../images/review2.jpg";
 import quote from "../images/quote.jpg";
