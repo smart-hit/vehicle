@@ -12,7 +12,7 @@ function About(){
         <div className="about-main">
         <div className="about-com">
         <h1>About Company</h1>
-        <p>Hey this is RPcars team,we are extremely delighted to help you rend a vehicle for you.We offers a big range of vehicles for all your driving needs.We have the perfect car to meet your needs. </p>
+        <p>Hey this is RPcars team,we are extremely delighted to help you rend a vehicle for you.We offers a big range of vehicles for all your driving needs without prepayment based on your credit.We have the perfect car to meet your needs. </p>
         </div>
         <div className="about-con">
         <h1>Contact Us</h1>
@@ -43,7 +43,7 @@ function About(){
             
             <div className="review2">
             <h1>Client's Testimonials</h1>
-                <h3>"The car was in great condition and made our trip even better. Highly recommend for this car rental website!"</h3>
+                <h3>"The car was in great condition and loved the credit system confirmation without prepayment. Highly recommend for this car rental website!"</h3>
                 <h1 className="hermi">Hermione Granger</h1>
                 <img className="review2-img" src={review2} />
                 <img className="quote" src={quote} />
