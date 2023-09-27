@@ -45,8 +45,8 @@ function BookCar() {
         <input id="email" type="email" name="user_mail"placeholder="Your Mail"></input>
         </div>
         <div class="bookselectcar">
-        <label>Select Car</label>
-        <select>
+        <label >Select Car</label>
+        <select name="car">
           <option>BMW 320</option>
           <option>VW Passat</option>
           <option>Tesla</option>
@@ -57,11 +57,11 @@ function BookCar() {
         </div >
         <div class="bookpdate">
         <label>Select Pickup Date</label>
-        <input type="date"></input>
+        <input type="date"name="pick"></input>
         </div>
         <div class="bookptime">
-        <label>Pickup Time</label>
-        <input type="time"></input>
+        <label >Pickup Time</label>
+        <input type="time" name="picktime"></input>
         </div>
         <div class="bookddate">
         <label>Select Drop Date</label>
