@@ -38,11 +38,11 @@ function BookCar() {
       <form className="bookcarform" ref={form} onSubmit={sendEmail}>
         <div class="bookname">
         <label>Name</label>
-        <input type="text" name="user_name"></input>
+        <input type="text" name="user_name"placeholder="Your Name"></input>
         </div>
         <div class="bookemail">
         <label for="email">E-mail</label>
-        <input id="email" type="email" name="user_mail"></input>
+        <input id="email" type="email" name="user_mail"placeholder="Your Mail"></input>
         </div>
         <div class="bookselectcar">
         <label>Select Car</label>
