@@ -32,9 +32,7 @@ function BookCar() {
       <>
         <section id="booking-section" className="book-section">
       <img className="bookbg" src={bgbookbox}></img>
-      <h1 class="bookcar">Book a car</h1>
-      
-      
+      <h1 class="bookcar">Book a Car With Your credit</h1>
       <form className="bookcarform" ref={form} onSubmit={sendEmail}>
         <div class="bookname">
         <label>Name</label>
@@ -72,8 +70,8 @@ function BookCar() {
         <input type="time"></input>
         </div>
         <div class="bookploc">
-        <label for="pick">Pickup location</label><br />
-        <select id="pick">
+        <label for="pick">Pickup location</label>
+        <select >
           <option>sholinganallur</option>
           <option>Avadi</option>
           <option>T-nagar</option>
@@ -88,6 +86,11 @@ function BookCar() {
           <option>T-nagar</option>
           <option>kk-nagar</option>
         </select>
+        </div>
+        <div class="carpooling">
+        <label for="carlabel">Carpooling</label><br />
+        <input type="checkbox"  className="checkbox" />
+        
         </div>
         <div className="reserve-button">
         <input type="submit" value="Book Now" className="buttonbook" />

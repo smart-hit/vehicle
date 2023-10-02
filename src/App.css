@@ -18,7 +18,7 @@ right: 35%;
 .navbar__links{
   position: absolute;
   top:10%;
-  right: 42%;
+  right: 34%;
   display:flex;
   justify-content: center;
   gap: 2.4em;
@@ -37,7 +37,7 @@ right: 35%;
 }
 .home-main{
   position: absolute;
-  bottom:58.2%;
+  bottom:50.2%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
   
@@ -45,7 +45,7 @@ right: 35%;
 .homebutton{
   position: absolute;
   left:3%;
-bottom: 15%;
+bottom: 9%;
 }
 .home-img{
   z-index: 2;
@@ -155,7 +155,7 @@ span {
 
 .carFull{
   position: absolute;
-  top:41.8%;
+  top:48.8%;
   color: #131314;
  
   }
@@ -302,7 +302,7 @@ h1.hermi{
 }
 .bookcarform{
   position: absolute;
-  top:4cm;
+  top:5cm;
   left:7cm;
   display: grid;
   grid-template-columns: 200px 200px 200px;
@@ -324,6 +324,7 @@ h1.hermi{
 .bookdtime{
   display:grid;
   padding: 10px;
+  
 }
 .bookddate{
 padding: 10px;
@@ -340,29 +341,44 @@ font-family: bold;
   padding: 10px;
 }
 .bookploc{
+  
   padding: 10px;
+  display:grid;
 }
 .bookdloc{
   padding: 10px;
+  display:grid;
 }
 .reserve-button{
   position: absolute;
-  bottom:5%;
+  bottom:-1cm;
   right:10%;
   font-size: large;
   font-family: Georgia, serif;
 }
+.carpooling{
+  position: absolute;
+  bottom: 0cm;
+  left:1cm;
+}
+.checkbox {
+  position: absolute;
+  height: 23px;
+  width: 25px;
+  background-color: #eee;
+}
 h1.bookcar{
-position: fixed;
-top:20%;
-left:13%;
+position: relative;
+top:3cm;
+left:60%;
+color: #f6ecec;
 }
 .bookbg{
  position: absolute;
- top:0%;
+ top: 49px;
  z-index: -1;
   filter: brightness(60%);
-  width:34cm;
+  width:33.43cm;
   height:16cm;
 }
 h3.rp{
@@ -387,4 +403,86 @@ filter: brightness(85%);
   height: 0.8cm;
   background-image: url("/src/images/button bg.jpg");
   background-position: center;
+}
+h1.comm-title{
+  position: absolute;
+top:18%;
+left:1%;
+font-size: 1cm;
+font-family:serif;
+}
+img.trip1{
+  position: absolute;
+  top:100px;
+ right:42%;
+ height: 200px;
+ width: 200px;
+}
+.comm-span{
+  color:#4dc8ea
+}
+.comm-span1{
+  color:#f09835
+}
+.comm-manali{
+  position: relative;
+  top:200px;
+  left:10px;
+  
+ 
+  width: fit-content;
+}
+.comm-manaliimg{
+  height: 5cm;
+  width: 6.8cm;
+  border-radius: 15px 50px;
+ 
+}
+.gird{
+  display: grid; 
+  grid-template-rows: auto auto auto;
+  background-color: #d9e4ea;
+  width: fit-content;
+ 
+}
+.gird-item{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+.comm-coorgimg{
+  height: 5cm;
+  width: 6.8cm;
+  border-radius: 15px 50px;
+}
+.comm-coorg{
+  position: relative;
+  top:10px;
+  left:350px;
+  width: fit-content;
+}
+
+.comm-dis-div{
+  position: absolute;
+  width: 6cm;
+top:28%;
+left:25%;
+}
+.comm-events{
+  position: absolute;
+  top:23%;
+  right: 14%;
+}
+.event-title{
+  font-size: 0.8cm;
+  font-family:sans-serif;
+}
+.event-carpooling{
+  position: absolute;
+  margin-top: 5cm;
+  width: 10cm;
+  font-family: Garamond (serif);
+}
+.event-tour{
+  position: absolute;
+  width: 10cm;
+  font-family: Garamond (serif);
 }

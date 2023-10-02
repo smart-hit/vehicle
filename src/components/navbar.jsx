@@ -40,6 +40,12 @@ function Navbar() {
                 Book
               </Link>
             </li>
+            <li>
+            {" "}
+              <Link className="about-link" to="/community">
+                Trips/Events
+              </Link>
+            </li>
           </ul>
 
           {/* mobile */}
