@@ -20,14 +20,14 @@
 
 </div>
 <br>
-<h3 align='center'>About Page 🏡</h3>
+<h3 align='center'>About Page </h3>
 
 <div align='center'>
 <img width="960" alt="outputabout" src="https://github.com/smart-hit/vehicle/assets/141152935/b49e4c84-3b65-45cf-80f3-8714959f15e5">
 
 </div>
 <br>
-<h3 align='center'>Book Page 🏡</h3>
+<h3 align='center'>Book Page </h3>
 
 <div align='center'>
 
